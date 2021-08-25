@@ -13,7 +13,6 @@ def speak(audio):
     engine.runAndWait()
 
 #speak("Hi, This is JARVIS! Hello, Everyone!")
-#speak("Fuck You!")
 
 def time():
     Time = datetime.datetime.now().strftime("%I:%M:%S")
